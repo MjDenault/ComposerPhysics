@@ -13,7 +13,7 @@ local function showMenuScene()
         effect = "fade",
         time = 500
     }
-    composer.gotoScene( "menuScene" , options )
+    composer.gotoScene( "scene.menuScene" , options )
 end 
  
  

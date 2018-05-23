@@ -8,4 +8,4 @@ local composer = require("composer")
 
 display.setStatusBar( display.HiddenStatusBar ) 
 
-composer.gotoScene("splashScene")
+composer.gotoScene("scene.splashScene")

@@ -24,7 +24,7 @@ function scene:create( event )
     local sceneGroup = self.view
     -- start physics
     physics.start()
-    physics.setGravity(0, 10)
+    physics.setGravity(0, 32)
     physics.setDrawMode("hybrid")
  
 end

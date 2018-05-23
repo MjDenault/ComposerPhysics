@@ -14,7 +14,7 @@ local function showGameScene()
         effect = "fade",
         time = 500
     }
-    composer.gotoScene( "gameScene" , options )
+    composer.gotoScene( "scene.gameScene" , options )
 end 
  
  
@@ -62,7 +62,7 @@ function scene:show( event )
             strokeWidth = 4,
             onEvent = function (event)
                 if event.phase == "ended" then
-                    composer.gotoScene("gameScene")
+                    composer.gotoScene("scene.gameScene")
                 end
             end
         }
